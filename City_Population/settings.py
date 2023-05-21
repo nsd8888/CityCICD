@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-^m5gi#f9r8p$3ycx$@_e%zys&7--0c0gmog(u7w(&0^cwzjh!t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -76,16 +76,16 @@ WSGI_APPLICATION = 'City_Population.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        #'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': "new_project",
-        'USER': 'root',  
-        'PASSWORD': 'Blucognition@88',  
-        'HOST': '127.0.0.1',  
-        'PORT': '3306',  
-        'OPTIONS': {  
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'NAME': "new_project",
+        # 'USER': 'root',  
+        # 'PASSWORD': 'Blucognition@88',  
+        # 'HOST': '127.0.0.1',  
+        # 'PORT': '3306',  
+        # 'OPTIONS': {  
+        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
+        # }
         
     }
 }
