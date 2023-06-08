@@ -78,10 +78,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         #'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': "citydb",
+        'NAME': "cityapp",
         'USER': 'admin',  
-        'PASSWORD': 'Django123',  
-        'HOST': 'databasedj.cetjcletfp74.us-east-1.rds.amazonaws.com',  
+        'PASSWORD': 'Krishna88',  
+        'HOST': 'django-database.cetjcletfp74.us-east-1.rds.amazonaws.com',  
         'PORT': '3306',  
         'OPTIONS': {  
              'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
