@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': "cityapp",
         'USER': 'admin',  
         'PASSWORD': 'Krishna88',  
-        'HOST': 'django-database.cetjcletfp74.us-east-1.rds.amazonaws.com',  
+        'HOST': 'database-1.cetjcletfp74.us-east-1.rds.amazonaws.com',  
         'PORT': '3306',  
         'OPTIONS': {  
              'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
